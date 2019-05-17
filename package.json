@@ -1,0 +1,30 @@
+{
+  "name": "uploader_main",
+  "version": "1.0.0",
+  "description": "for nodejs uploader",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "deploy":"gh-pages -d build"
+  },
+  "author": "thanzawwin",
+  "license": "ISC",
+  "homepage":"https://github.com/Thanzawwin/myfirstapp",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.4",
+    "gh-pages": "^2.0.1",
+    "mongodb": "^3.2.4",
+    "mongoose": "^5.5.4",
+    "multer": "^1.4.1",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
